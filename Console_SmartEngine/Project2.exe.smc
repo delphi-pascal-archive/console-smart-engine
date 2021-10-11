@@ -1,0 +1,4 @@
+view "title.bmp"
+prompt "\%A%COMPUTERNAME%@%USERNAME% \%9%CD_PATH% $ "
+echo "\%7\%*SmartMedia\%^ © VTR Corp. Console v 1.00"
+title "\%3\%*SmartMedia\%^\%8 Console  \%7(Runned from %USERNAME%)"

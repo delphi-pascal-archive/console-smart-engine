@@ -1,0 +1,30 @@
+object Form1: TForm1
+  Left = 231
+  Top = 118
+  AlphaBlend = True
+  AlphaBlendValue = 230
+  BorderStyle = bsNone
+  Caption = 'Form1'
+  ClientHeight = 332
+  ClientWidth = 542
+  Color = clBtnFace
+  Font.Charset = RUSSIAN_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poScreenCenter
+  ScreenSnap = True
+  OnCreate = FormCreate
+  OnKeyPress = FormKeyPress
+  OnMouseDown = FormMouseDown
+  OnPaint = FormPaint
+  PixelsPerInch = 96
+  TextHeight = 13
+  object ApplicationEvents1: TApplicationEvents
+    OnException = ApplicationEvents1Exception
+    Left = 136
+    Top = 248
+  end
+end
